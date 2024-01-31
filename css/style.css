@@ -7,4 +7,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-top: 2vh;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#top a {
+    justify-content: space-between;
+    text-decoration: none;
+
 }
