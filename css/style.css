@@ -42,7 +42,7 @@
     text-align: justify;
     padding-top: 8vh;
     gap: 50vh;
-    margin: 20vh auto;
+    margin: 10vh auto;
 
 }
 #abttext h1{
@@ -59,20 +59,32 @@ font-size: 20px;
 
 /* portfolio */
 #port{
+    border: 1px black solid;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: justify;
     padding-top: 8vh;
     gap: 50vh;
-    margin: 20vh auto;
+    margin: 10vh auto;
 }
 #port h1{
+    border: 1px black solid;
     text-align: left;
-    padding-right: 20vh;
+    padding-right: 5vh;
     font-size: 35px;
     margin-top: 5vh;
 }
 #ptxt{
+    border: 1px black solid;
     font-size: 20px;
+    padding-right: 5vh;
+}
+
+/* design for images */
+#imgrow{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vh;
 }
