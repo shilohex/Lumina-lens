@@ -18,3 +18,61 @@
     text-decoration: none;
 
 }
+/* the body design */
+#begin{
+    display: flex;
+    justify-content: center;
+    padding-top: 8vh;
+    text-align: center;
+}
+#begin h1{
+    font-size: 40px;
+
+}
+#img1 img {
+    width:100%;
+    
+}
+
+ /* design of about text */
+#abttext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 8vh;
+    gap: 50vh;
+    margin: 20vh auto;
+
+}
+#abttext h1{
+    text-align: left;
+    padding-right: 20vh;
+    font-size: 35px;
+    margin-top: 5vh;
+}
+#text p{
+font-size: 20px;
+}
+
+/* vidoe edit */
+
+/* portfolio */
+#port{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 8vh;
+    gap: 50vh;
+    margin: 20vh auto;
+}
+#port h1{
+    text-align: left;
+    padding-right: 20vh;
+    font-size: 35px;
+    margin-top: 5vh;
+}
+#ptxt{
+    font-size: 20px;
+}
