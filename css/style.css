@@ -13,7 +13,9 @@
 #logo{
     display: flex;
     align-items: center;
+
 }
+
 #top a {
     justify-content: space-evenly;
     text-decoration: none;
@@ -27,12 +29,27 @@
     text-align: center;
 }
 #begin h1{
-    font-size: 40px;
-    
+    font-size: 40px
+   
+}
+ 
+#begin h2{
+    font-family: Lora;
+font-size: 50px;
+font-style: italic;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: -0.04em;
+text-align: center;
 
 }
+
+
+    
+
+
 #img1 img {
-    width:100%;
+    width:100vw;
     
 }
 
@@ -48,18 +65,34 @@
 
 }
 #abttext h1{
-    text-align: left;
+    /* text-align: left; */
     padding-right: 20vh;
-    font-size: 35px;
     margin-top: 5vh;
-    margin-right: 200px;
+    margin-right: 150px;
+    font-family: PP Editorial New;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    
 }
 #text p{
-font-size: 20px;
+font-size: 24px;
+font-family: Neue Montreal;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: -0.04em;
+text-align: left;
+
 }
 
 /* vidoe edit */
-
+#video img{
+    width: 80vw;
+    padding: 30px;
+}
 /* portfolio */
 #port{
     /* border: 1px black solid; */
@@ -72,17 +105,25 @@ font-size: 20px;
     margin: 10vh auto;
 }
 #port h1{
-    /* border: 1px black solid; */
-    text-align: left;
     padding-right: 5vh;
-    font-size: 35px;
     margin-top: 5vh;
     margin-right: 200px;
+    font-family: PP Editorial New;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
 }
 #ptxt{
-    /* border: 1px black solid; */
-    font-size: 20px;
-    padding-right: 5vh;
+    font-family: Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+    text-align: left;
+
 }
 
 /* design for images */
@@ -121,8 +162,12 @@ font-size: 20px;
     margin-right: 20px;
 }  
 #ttx p{
-    font-size:17px ;
-    margin-left: 400px;
+    font-family: Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+    text-align: left;
 }
 
 
@@ -140,9 +185,18 @@ font-size: 20px;
     margin-right: 20px;
 }
 #design p{
-    font-size: 20px;
+    font-family: Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: -0.04em;
+    text-align: left;
+    padding: 10px;
+    gap: 10px;
+
 }
 #plus{
     margin-left: 400px;
+    font-size: 24px;
 }
 
